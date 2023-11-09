@@ -1,0 +1,25 @@
+/* Add your custom CSS here */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon .custom-control-label::before {
+    background-color: #fff;
+}
+
+/* Custom button styles */
+.custom-navbar-toggler {
+    /* Add your custom styles for the button here */
+    color: #fff; /* Text color */
+    background-color: transparent; /* Background color */
+    border: none; /* Remove border */
+    font-size: 16px; /* Font size */
+    cursor: pointer;
+}
